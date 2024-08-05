@@ -1,7 +1,7 @@
 // screens/LiveGameScreen.tsx
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Button } from 'react-native';
-import CommonStyles from '../components/commonStyles'; // Import common styles
+import CommonStyles from '../../components/commonStyles'; // Import common styles
 import { useRoute,useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
